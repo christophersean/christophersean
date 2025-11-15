@@ -1,3 +1,6 @@
+ITco AI Receptionist
+Welcome to ITco's AI Receptionist
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -173,4 +176,5 @@ async def ask(data: UserMessage):
     )
     return {"reply": response.choices[0].message["content"]}
 uvicorn server:app --reload --port 8000
+© 2025 ITco. All rights reserved.
 
